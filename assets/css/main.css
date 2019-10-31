@@ -1738,6 +1738,7 @@ input, select, textarea {
 		#work .experience >p {
 			font-size: 1.5rem;
 			font-weight: bold;
+			text-align: center;
 		}
 		#work .experience li >p {
 			font-size: 1.5rem;
