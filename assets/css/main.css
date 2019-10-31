@@ -1690,7 +1690,6 @@ input, select, textarea {
 			display:flex;
 			flex-direction: column;
 			line-height: 2.3em;
-			justify-content: center;
 
 		}
 
