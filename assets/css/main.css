@@ -1690,7 +1690,7 @@ input, select, textarea {
 			display:flex;
 			flex-direction: column;
 			line-height: 2.3em;
-
+			width: 100%;
 		}
 
 		#work .resumeContainer >.experience {
@@ -1707,6 +1707,11 @@ input, select, textarea {
 		#work .textContainer >p {
 			font-size: 1.3rem;
 			font-weight: 501;
+		}
+
+		#work >.bottomPic {
+			margin-top: 4%;
+			border-bottom: initial;
 		}
 		#work .textContainer >.note {
 			margin-top: -2%;
@@ -1729,11 +1734,13 @@ input, select, textarea {
 		#work .experience >h4 {
 			font-size: 1.1rem;
 			font-style: oblique;
+			text-align: center;
 		}
 		#work .experience >h5 {
 			font-size: 1.4rem;
 			border: 2px solid gray;
 			padding: 0 2%;
+			text-align: center;
 		}
 		#work .experience >p {
 			font-size: 1.5rem;
@@ -1743,6 +1750,7 @@ input, select, textarea {
 		#work .experience li >p {
 			font-size: 1.5rem;
 			font-weight: bold;
+			text-align: center;
 		}
 		#work .experience >address {
 			font-size: 1.5rem;
